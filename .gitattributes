@@ -1,0 +1,3 @@
+# Official license bytes are authenticated by upstream SHA-256; never convert EOLs.
+licenses/upstream/** -text
+THIRD_PARTY_LICENSES/**/official-source/** -text

@@ -1,6 +1,7 @@
 # Changelog
 
 ## v0.1.0 - 2026-10-08
+- Windows checkout fix: preserve official license bytes through Git attributes so upstream SHA-256 verification also succeeds with core.autocrlf enabled.
 - Pre-release fix: block PO/invoice/SKU normalization collisions and empty normalized identifiers before matching or aggregation; preserve unambiguous normalized matches.
 - Pre-release fix: redistribute official versioned openpyxl/et_xmlfile MIT/PSF and PySide6/shiboken6 LGPL/GPL license texts, with verified provenance and fail-closed collection.
 - Initial offline Windows desktop release.
