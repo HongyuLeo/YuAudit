@@ -1,0 +1,146 @@
+build	Run python -m pip install -r requirements-dev.txt	2026-10-08T11:01:09.2371885Z Installing collected packages: altgraph, typing-extensions, shiboken6, setuptools, pywin32-ctypes, pypdfium2, pyinstaller-hooks-contrib, pygments, pycparser, pluggy, Pillow, pefile, iniconfig, et-xmlfile, charset-normalizer, annotated-types, typing-inspection, reportlab, pytest, PySide6-Essentials, pyinstaller, pydantic-core, openpyxl, cffi, pydantic, cryptography, pdfminer.six, pdfplumber
+build	Test, package and launch EXE	﻿2026-10-08T11:01:48.0805343Z ##[group]Run ./scripts/build.ps1
+build	Test, package and launch EXE	2026-10-08T11:01:48.0805822Z ^[[36;1m./scripts/build.ps1^[[0m
+build	Test, package and launch EXE	2026-10-08T11:01:48.0877733Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+build	Test, package and launch EXE	2026-10-08T11:01:48.0878288Z env:
+build	Test, package and launch EXE	2026-10-08T11:01:48.0878729Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+build	Test, package and launch EXE	2026-10-08T11:01:48.0879347Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+build	Test, package and launch EXE	2026-10-08T11:01:48.0879951Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+build	Test, package and launch EXE	2026-10-08T11:01:48.0880484Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+build	Test, package and launch EXE	2026-10-08T11:01:48.0881077Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+build	Test, package and launch EXE	2026-10-08T11:01:48.0881517Z ##[endgroup]
+build	Test, package and launch EXE	2026-10-08T11:01:54.1475401Z ..............................................................           [100%]
+build	Test, package and launch EXE	2026-10-08T11:01:54.1475961Z 62 passed in 4.33s
+build	Test, package and launch EXE	2026-10-08T11:01:55.1148705Z Collected 37 dependency license inventories
+build	Test, package and launch EXE	2026-10-08T11:01:55.5001687Z 247 INFO: PyInstaller: 6.16.0, contrib hooks: 2026.8
+build	Test, package and launch EXE	2026-10-08T11:01:55.5003794Z 247 INFO: Python: 3.12.10
+build	Test, package and launch EXE	2026-10-08T11:01:55.5221365Z 270 INFO: Platform: Windows-2025Server-10.0.26100-SP0
+build	Test, package and launch EXE	2026-10-08T11:01:55.5221937Z 270 INFO: Python environment: C:\hostedtoolcache\windows\Python\3.12.10\x64
+build	Test, package and launch EXE	2026-10-08T11:01:55.5225606Z 270 INFO: wrote D:\a\YuAudit\YuAudit\YuAudit.spec
+build	Test, package and launch EXE	2026-10-08T11:01:55.5252196Z 273 INFO: Removing temporary files and cleaning cache in C:\Users\runneradmin\AppData\Local\pyinstaller
+build	Test, package and launch EXE	2026-10-08T11:01:55.5259520Z 273 INFO: Module search paths (PYTHONPATH):
+build	Test, package and launch EXE	2026-10-08T11:01:55.5260200Z ['D:\\a\\YuAudit\\YuAudit',
+build	Test, package and launch EXE	2026-10-08T11:01:55.5260507Z  'D:\\a\\YuAudit\\YuAudit',
+build	Test, package and launch EXE	2026-10-08T11:01:55.5260859Z  'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python312.zip',
+build	Test, package and launch EXE	2026-10-08T11:01:55.5261315Z  'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\DLLs',
+build	Test, package and launch EXE	2026-10-08T11:01:55.5261700Z  'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib',
+build	Test, package and launch EXE	2026-10-08T11:01:55.5262132Z  'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64',
+build	Test, package and launch EXE	2026-10-08T11:01:55.5262594Z  'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages',
+build	Test, package and launch EXE	2026-10-08T11:01:55.5262982Z  'D:\\a\\YuAudit\\YuAudit']
+build	Test, package and launch EXE	2026-10-08T11:01:55.7446945Z 491 INFO: Appending 'datas' from .spec
+build	Test, package and launch EXE	2026-10-08T11:01:55.7566341Z 503 INFO: checking Analysis
+build	Test, package and launch EXE	2026-10-08T11:01:55.7567558Z 503 INFO: Building Analysis because Analysis-00.toc is non existent
+build	Test, package and launch EXE	2026-10-08T11:01:55.7568146Z 503 INFO: Looking for Python shared library...
+build	Test, package and launch EXE	2026-10-08T11:01:55.7568777Z 503 INFO: Using Python shared library: C:\hostedtoolcache\windows\Python\3.12.10\x64\python312.dll
+build	Test, package and launch EXE	2026-10-08T11:01:55.7569418Z 505 INFO: Running Analysis Analysis-00.toc
+build	Test, package and launch EXE	2026-10-08T11:01:55.7570039Z 505 INFO: Target bytecode optimization level: 0
+build	Test, package and launch EXE	2026-10-08T11:01:55.7570532Z 505 INFO: Initializing module dependency graph...
+build	Test, package and launch EXE	2026-10-08T11:01:55.7576654Z 505 INFO: Initializing module graph hook caches...
+build	Test, package and launch EXE	2026-10-08T11:01:55.7701979Z 517 INFO: Analyzing modules for base_library.zip ...
+build	Test, package and launch EXE	2026-10-08T11:01:56.4135049Z 1161 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:01:56.8320690Z 1580 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:01:58.4192407Z 3166 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:00.0729506Z 4821 INFO: Caching module dependency graph...
+build	Test, package and launch EXE	2026-10-08T11:02:00.1051327Z 4853 INFO: Analyzing D:\a\YuAudit\YuAudit\launch.py
+build	Test, package and launch EXE	2026-10-08T11:02:00.1507212Z 4899 INFO: Processing standard module hook 'hook-PySide6.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:00.2945571Z 5042 INFO: Processing standard module hook 'hook-shiboken6.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:00.3920328Z 5139 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:01.8655929Z 6612 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:02.4994462Z 7247 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:03.1518843Z 7899 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:03.6794342Z 8427 INFO: Processing standard module hook 'hook-pydantic.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+build	Test, package and launch EXE	2026-10-08T11:02:03.9085390Z C:\hostedtoolcache\windows\Python\3.12.10\x64\Lib\site-packages\pydantic\experimental\__init__.py:7: PydanticExperimentalWarning: This module is experimental, its contents are subject to change and deprecation.
+build	Test, package and launch EXE	2026-10-08T11:02:03.9086702Z   warnings.warn(
+build	Test, package and launch EXE	2026-10-08T11:02:03.9568362Z 8705 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+build	Test, package and launch EXE	2026-10-08T11:02:03.9573623Z 8705 INFO: SetuptoolsInfo: initializing cached setuptools info...
+build	Test, package and launch EXE	2026-10-08T11:02:04.9208094Z 9669 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:04.9863077Z 9734 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:05.2486749Z 9996 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:05.6783396Z 10426 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:05.9708430Z 10718 INFO: Processing standard module hook 'hook-zoneinfo.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+build	Test, package and launch EXE	2026-10-08T11:02:05.9990986Z 10747 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:06.6312649Z 11379 INFO: Processing standard module hook 'hook-openpyxl.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+build	Test, package and launch EXE	2026-10-08T11:02:06.8788925Z 11626 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:07.1914317Z 11939 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:07.2772701Z 12025 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:07.6423902Z 12389 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:08.2740105Z 13022 INFO: Processing standard module hook 'hook-pdfminer.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+build	Test, package and launch EXE	2026-10-08T11:02:08.4089930Z 13157 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:08.8691890Z 13617 INFO: Processing standard module hook 'hook-cryptography.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+build	Test, package and launch EXE	2026-10-08T11:02:09.5281643Z 14275 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+build	Test, package and launch EXE	2026-10-08T11:02:09.6743652Z 14422 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+build	Test, package and launch EXE	2026-10-08T11:02:09.9972568Z 14744 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+build	Test, package and launch EXE	2026-10-08T11:02:10.0300788Z 14778 INFO: Processing standard module hook 'hook-pypdfium2.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+build	Test, package and launch EXE	2026-10-08T11:02:10.0404745Z 14789 INFO: Processing standard module hook 'hook-pypdfium2_raw.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+build	Test, package and launch EXE	2026-10-08T11:02:10.4226252Z 15170 INFO: Processing module hooks (post-graph stage)...
+build	Test, package and launch EXE	2026-10-08T11:02:10.5428950Z 15290 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+build	Test, package and launch EXE	2026-10-08T11:02:10.5430537Z 15290 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+build	Test, package and launch EXE	2026-10-08T11:02:10.5475370Z 15294 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:10.5563766Z 15304 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+build	Test, package and launch EXE	2026-10-08T11:02:10.5794763Z 15327 INFO: Processing pre-safe-import-module hook 'hook-jaraco.functools.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+build	Test, package and launch EXE	2026-10-08T11:02:10.5797344Z 15328 INFO: Setuptools: 'jaraco.functools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.functools'!
+build	Test, package and launch EXE	2026-10-08T11:02:10.5879356Z 15336 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+build	Test, package and launch EXE	2026-10-08T11:02:10.5881321Z 15336 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+build	Test, package and launch EXE	2026-10-08T11:02:10.7019864Z 15450 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:11.0480534Z 15795 INFO: Processing pre-safe-import-module hook 'hook-jaraco.text.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+build	Test, package and launch EXE	2026-10-08T11:02:11.0482536Z 15795 INFO: Setuptools: 'jaraco.text' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.text'!
+build	Test, package and launch EXE	2026-10-08T11:02:11.0576789Z 15805 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:11.0588911Z 15807 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+build	Test, package and launch EXE	2026-10-08T11:02:11.0594508Z 15807 INFO: Processing pre-safe-import-module hook 'hook-jaraco.context.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+build	Test, package and launch EXE	2026-10-08T11:02:11.0596248Z 15807 INFO: Setuptools: 'jaraco.context' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.context'!
+build	Test, package and launch EXE	2026-10-08T11:02:11.6671459Z 16415 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+build	Test, package and launch EXE	2026-10-08T11:02:11.6673872Z 16415 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+build	Test, package and launch EXE	2026-10-08T11:02:11.7724385Z 16519 WARNING: Hidden import "tzdata" not found!
+build	Test, package and launch EXE	2026-10-08T11:02:11.9811720Z 16728 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:12.3252299Z 17072 INFO: Performing binary vs. data reclassification (431 entries)
+build	Test, package and launch EXE	2026-10-08T11:02:12.3533353Z 17101 INFO: Looking for ctypes DLLs
+build	Test, package and launch EXE	2026-10-08T11:02:12.3957996Z 17143 INFO: Analyzing run-time hooks ...
+build	Test, package and launch EXE	2026-10-08T11:02:12.3990390Z 17147 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+build	Test, package and launch EXE	2026-10-08T11:02:12.4012871Z 17149 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+build	Test, package and launch EXE	2026-10-08T11:02:12.4030115Z 17151 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+build	Test, package and launch EXE	2026-10-08T11:02:12.4046793Z 17153 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+build	Test, package and launch EXE	2026-10-08T11:02:12.4058021Z 17153 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+build	Test, package and launch EXE	2026-10-08T11:02:12.4066289Z 17155 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+build	Test, package and launch EXE	2026-10-08T11:02:12.4081223Z 17155 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+build	Test, package and launch EXE	2026-10-08T11:02:12.4093609Z 17157 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+build	Test, package and launch EXE	2026-10-08T11:02:12.4289764Z 17176 INFO: Creating base_library.zip...
+build	Test, package and launch EXE	2026-10-08T11:02:12.4471529Z 17194 INFO: Looking for dynamic libraries
+build	Test, package and launch EXE	2026-10-08T11:02:12.8069181Z C:\hostedtoolcache\windows\Python\3.12.10\x64\Lib\site-packages\pydantic\experimental\__init__.py:7: PydanticExperimentalWarning: This module is experimental, its contents are subject to change and deprecation.
+build	Test, package and launch EXE	2026-10-08T11:02:12.8070516Z   warnings.warn(
+build	Test, package and launch EXE	2026-10-08T11:02:13.0734893Z 17821 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\shiboken6']
+build	Test, package and launch EXE	2026-10-08T11:02:13.0735848Z 17821 INFO: Extra DLL search directories (PATH): ['C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PySide6']
+build	Test, package and launch EXE	2026-10-08T11:02:14.3593565Z 19107 WARNING: Library not found: could not resolve 'api-ms-win-core-path-l1-1-0.dll', dependency of 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python312.dll'.
+build	Test, package and launch EXE	2026-10-08T11:02:14.3597795Z 19108 WARNING: Library not found: could not resolve 'api-ms-win-core-winrt-l1-1-0.dll', dependency of 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll'.
+build	Test, package and launch EXE	2026-10-08T11:02:14.3601741Z 19108 WARNING: Library not found: could not resolve 'api-ms-win-shcore-scaling-l1-1-1.dll', dependency of 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll'.
+build	Test, package and launch EXE	2026-10-08T11:02:14.3606848Z 19109 WARNING: Library not found: could not resolve 'api-ms-win-core-winrt-string-l1-1-0.dll', dependency of 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll'.
+build	Test, package and launch EXE	2026-10-08T11:02:14.3611334Z 19109 WARNING: Library not found: could not resolve 'api-ms-win-core-winrt-l1-1-0.dll', dependency of 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll'.
+build	Test, package and launch EXE	2026-10-08T11:02:14.3613643Z 19110 WARNING: Library not found: could not resolve 'api-ms-win-shcore-scaling-l1-1-1.dll', dependency of 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll'.
+build	Test, package and launch EXE	2026-10-08T11:02:14.3616958Z 19110 WARNING: Library not found: could not resolve 'api-ms-win-core-winrt-string-l1-1-0.dll', dependency of 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll'.
+build	Test, package and launch EXE	2026-10-08T11:02:14.3758934Z 19124 INFO: Warnings written to D:\a\YuAudit\YuAudit\build\YuAudit\warn-YuAudit.txt
+build	Test, package and launch EXE	2026-10-08T11:02:14.4484137Z 19196 INFO: Graph cross-reference written to D:\a\YuAudit\YuAudit\build\YuAudit\xref-YuAudit.html
+build	Test, package and launch EXE	2026-10-08T11:02:14.4851654Z 19233 INFO: checking PYZ
+build	Test, package and launch EXE	2026-10-08T11:02:14.4852257Z 19233 INFO: Building PYZ because PYZ-00.toc is non existent
+build	Test, package and launch EXE	2026-10-08T11:02:14.4852896Z 19233 INFO: Building PYZ (ZlibArchive) D:\a\YuAudit\YuAudit\build\YuAudit\PYZ-00.pyz
+build	Test, package and launch EXE	2026-10-08T11:02:15.1457196Z 19894 INFO: Building PYZ (ZlibArchive) D:\a\YuAudit\YuAudit\build\YuAudit\PYZ-00.pyz completed successfully.
+build	Test, package and launch EXE	2026-10-08T11:02:15.1717746Z 19920 INFO: checking PKG
+build	Test, package and launch EXE	2026-10-08T11:02:15.1718935Z 19920 INFO: Building PKG because PKG-00.toc is non existent
+build	Test, package and launch EXE	2026-10-08T11:02:15.1719499Z 19920 INFO: Building PKG (CArchive) YuAudit.pkg
+build	Test, package and launch EXE	2026-10-08T11:02:15.1903464Z 19938 INFO: Building PKG (CArchive) YuAudit.pkg completed successfully.
+build	Test, package and launch EXE	2026-10-08T11:02:15.1911266Z 19939 INFO: Bootloader C:\hostedtoolcache\windows\Python\3.12.10\x64\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+build	Test, package and launch EXE	2026-10-08T11:02:15.1911979Z 19939 INFO: checking EXE
+build	Test, package and launch EXE	2026-10-08T11:02:15.1912502Z 19939 INFO: Building EXE because EXE-00.toc is non existent
+build	Test, package and launch EXE	2026-10-08T11:02:15.1913706Z 19940 INFO: Building EXE from EXE-00.toc
+build	Test, package and launch EXE	2026-10-08T11:02:15.1914203Z 19940 INFO: Copying bootloader EXE to D:\a\YuAudit\YuAudit\build\YuAudit\YuAudit.exe
+build	Test, package and launch EXE	2026-10-08T11:02:15.1935011Z 19942 INFO: Copying icon to EXE
+build	Test, package and launch EXE	2026-10-08T11:02:15.1950608Z 19943 INFO: Copying 0 resources to EXE
+build	Test, package and launch EXE	2026-10-08T11:02:15.1951226Z 19943 INFO: Embedding manifest in EXE
+build	Test, package and launch EXE	2026-10-08T11:02:15.1966094Z 19945 INFO: Appending PKG archive to EXE
+build	Test, package and launch EXE	2026-10-08T11:02:15.2008363Z 19949 INFO: Fixing EXE headers
+build	Test, package and launch EXE	2026-10-08T11:02:15.2608498Z 20008 INFO: Building EXE from EXE-00.toc completed successfully.
+build	Test, package and launch EXE	2026-10-08T11:02:15.2655772Z 20012 INFO: checking COLLECT
+build	Test, package and launch EXE	2026-10-08T11:02:15.2657018Z 20014 INFO: Building COLLECT because COLLECT-00.toc is non existent
+build	Test, package and launch EXE	2026-10-08T11:02:15.2659035Z 20014 INFO: Building COLLECT COLLECT-00.toc
+build	Test, package and launch EXE	2026-10-08T11:02:15.6777718Z 20425 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+build	Test, package and launch EXE	2026-10-08T11:02:15.6865018Z 20434 INFO: Build complete! The results are available in: D:\a\YuAudit\YuAudit\dist
+build	Test, package and launch EXE	2026-10-08T11:02:28.5319049Z {"zip_integrity": "passed", "inventoried_packages": 37, "license_file_checks": 276, "official_texts_per_copy": 7, "license_locations": ["THIRD_PARTY_LICENSES", "_internal/THIRD_PARTY_LICENSES"], "python_runtime_license": "passed", "official_text_hashes": "passed", "exe_sha256": "33ac5c6fa2be4201c81a13a8b1909753730ca4bcb4cea77f1bb80f4090c21420"}
+build	Test, package and launch EXE	2026-10-08T11:02:32.0249984Z Built and smoke-tested dist/YuAudit-Windows-x64/YuAudit.exe

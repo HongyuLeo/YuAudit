@@ -32,15 +32,21 @@ Run date: 2026-10-08, Windows 11 Pro x64 (10.0.26200), Python 3.12.14 x64, PySid
 
 Final rerun after the pre-release corrections: **62 passed in 1.89 s**. Both Chinese and English frozen-app smoke runs completed successfully. Each smoke run also executes the original PO-1 / PO1 collision reproduction using the packaged engine and records `identifier_collision_guard: passed`. Machine-readable smoke records, actual screenshots and exported reports are retained in `docs/verification/`; `docs/test-results.xml` contains the pytest results. The final extracted ZIP run used `build/中文 空格解压验证-20261008-183617` and a fresh `本地 数据` directory, independently of the development Python environment. Build output is retained in `docs/verification/windows-build.txt`; packaged license verification is in `docs/verification/package-audit.json`.
 
-This record supersedes the initial 39-test build. No GitHub Release has been published. Reproduce from a clean checkout with `scripts/build.ps1 -Python .venv/Scripts/python.exe`; the script runs all tests, collects verified licenses, builds the native EXE, runs both language smokes, verifies ZIP licenses and runs the extracted Chinese-path smoke. Move any previous `dist/YuAudit-Windows-x64` folder before rebuilding. Refresh official license resources only with `scripts/fetch_official_licenses.py`, then inspect the provenance diff.
+This record supersedes the initial 39-test build. Publication was authorized; see the v0.1.0 release page for assets. Reproduce from a clean checkout with `scripts/build.ps1 -Python .venv/Scripts/python.exe`; the script runs all tests, collects verified licenses, builds the native EXE, runs both language smokes, verifies ZIP licenses and runs the extracted Chinese-path smoke. Move any previous `dist/YuAudit-Windows-x64` folder before rebuilding. Refresh official license resources only with `scripts/fetch_official_licenses.py`, then inspect the provenance diff.
 
 The screenshot set in `docs/screenshots/` was captured from the actual running Qt application in Chinese/English and light/dark views. It is not a mockup.
 
 ## Not performed or not claimed
 - Windows 10 compatibility was not run on this host; CI workflow targets `windows-latest` and should be used for a second OS validation.
-- The GitHub Actions workflow has not been run against a remote repository yet.
+- Windows GitHub Actions passed on commit 2e82bdc: https://github.com/HongyuLeo/YuAudit/actions/runs/37767230908.
 - Ollama was not installed; the local provider was exercised with a deterministic loopback HTTP fixture and remains optional.
 - EXE is unsigned. No installer/MSIX is supplied; the deliverable is a directory ZIP as requested.
 - OCR and scanned-PDF extraction were intentionally not installed or claimed.
 
 Publication preparation rerun: 62 passed in 1.69 s; pip check passed. Public text evidence replaces the local Windows user-profile prefix with PUBLIC_BUILD_USER; test outcomes, timings and application behavior are unchanged. GitHub CI status must be verified separately.
+
+## GitHub publication validation
+
+Authenticated owner HongyuLeo; public repository https://github.com/HongyuLeo/YuAudit. Initial CI exposed Git autocrlf conversion of hash-verified license bodies. Added .gitattributes byte preservation; a fresh Windows checkout with core.autocrlf=true passed all 62 tests (1.74 s) and license collection. Main source rerun also passed 62 tests (1.76 s).
+
+Independent Windows Actions run [37767230908](https://github.com/HongyuLeo/YuAudit/actions/runs/37767230908) passed on 2e82bdc72dd1b95e521b8f80e7a9d53011d589b5: all tests, native EXE packaging, Chinese/English frozen smokes, extracted Chinese-space path smoke and license ZIP verification. CI inventory includes runner packages: 37 packages, 276 license checks. CI EXE hash differs from the locally verified release EXE because the build environment differs. Release portable ZIP is the previously verified local build, not falsely presented as byte-identical to CI. Extracted remote log is in docs/verification/github-actions.txt. Subsequent documentation-only commit does not change runtime code.

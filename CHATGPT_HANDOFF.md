@@ -58,7 +58,7 @@ C:\Users\PUBLIC_BUILD_USER\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-q
 
 ## 已知限制及未执行验证
 
-- Windows 10 尚未实测；GitHub Actions 流程尚未在远端执行。
+- Windows 10 尚未实测；GitHub Actions 已真实通过：https://github.com/HongyuLeo/YuAudit/actions/runs/37767230908。
 - 未安装真实 Ollama 模型；本地接口以 HTTP fixture 测试，AI 为可选辅助。
 - EXE 未签名；目录式 ZIP，不提供安装器。
 - OCR、自由排版 PDF、汇率换算、贷项、单位转换未实现；PDF 需要可识别的真实文本表格。

@@ -62,7 +62,7 @@ py -3.12 -m venv .venv
 .venv\Scripts\python -m yuaudit
 ./scripts/build.ps1 -Python .venv\Scripts\python.exe
 ```
-The build script tests, collects license texts, packages via PyInstaller, starts the **real packaged executable** through its UI demo flow, exports three reports and captures a screenshot before creating the ZIP. `.github/workflows/windows.yml` repeats this on Windows GitHub Actions. CI is supplied but is not claimed to have run on GitHub before publication.
+The build script tests, collects license texts, packages via PyInstaller, starts the **real packaged executable** through its UI demo flow, exports three reports and captures a screenshot before creating the ZIP. `.github/workflows/windows.yml` repeats this on Windows GitHub Actions. Windows GitHub Actions completed successfully: [verified run](https://github.com/HongyuLeo/YuAudit/actions/runs/37767230908).
 
 ```powershell
 $env:YUAUDIT_DATA_DIR = "$PWD/build/test-profile"
