@@ -1,0 +1,128 @@
+..............................................................           [100%]
+62 passed in 1.78s
+Collected 31 dependency license inventories
+74 INFO: PyInstaller: 6.16.0, contrib hooks: 2026.8
+75 INFO: Python: 3.12.14
+96 INFO: Platform: Windows-11-10.0.26200-SP0
+96 INFO: Python environment: C:\Users\����\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-qa-windows\work\venv
+97 INFO: wrote C:\Users\����\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-qa-windows\outputs\YuAudit\YuAudit.spec
+98 INFO: Removing temporary files and cleaning cache in C:\Users\����\AppData\Local\pyinstaller
+102 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\outputs\\YuAudit',
+ 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\outputs\\YuAudit',
+ 'C:\\Users\\����\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.zip',
+ 'C:\\Users\\����\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs',
+ 'C:\\Users\\����\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib',
+ 'C:\\Users\\����\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python',
+ 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv',
+ 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages',
+ 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\outputs\\YuAudit']
+262 INFO: Appending 'datas' from .spec
+272 INFO: checking Analysis
+272 INFO: Building Analysis because Analysis-00.toc is non existent
+272 INFO: Looking for Python shared library...
+272 INFO: Using Python shared library: C:\Users\����\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python312.dll
+272 INFO: Running Analysis Analysis-00.toc
+272 INFO: Target bytecode optimization level: 0
+272 INFO: Initializing module dependency graph...
+273 INFO: Initializing module graph hook caches...
+282 INFO: Analyzing modules for base_library.zip ...
+905 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+1701 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+2171 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+2381 INFO: Caching module dependency graph...
+2400 INFO: Analyzing C:\Users\����\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-qa-windows\outputs\YuAudit\launch.py
+2420 INFO: Processing standard module hook 'hook-PySide6.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+2520 INFO: Processing standard module hook 'hook-shiboken6.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+2581 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3058 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3446 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3815 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4092 INFO: Processing standard module hook 'hook-pydantic.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+C:\Users\PUBLIC_BUILD_USER\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-qa-windows\work\venv\Lib\site-packages\pydantic\experimental\__init__.py:7: PydanticExperimentalWarning: This module is experimental, its contents are subject to change and deprecation.
+  warnings.warn(
+4298 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+4299 INFO: SetuptoolsInfo: initializing cached setuptools info...
+4693 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4737 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4868 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5083 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5273 INFO: Processing standard module hook 'hook-zoneinfo.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+5287 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5680 INFO: Processing standard module hook 'hook-openpyxl.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+5861 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6067 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6119 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6380 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6782 INFO: Processing standard module hook 'hook-pdfminer.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+6873 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7143 INFO: Processing standard module hook 'hook-cryptography.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+7600 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+7692 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+7886 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+7904 INFO: Processing standard module hook 'hook-pypdfium2.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+7914 INFO: Processing standard module hook 'hook-pypdfium2_raw.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+8136 INFO: Processing module hooks (post-graph stage)...
+8206 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8206 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+8209 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8216 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8231 INFO: Processing pre-safe-import-module hook 'hook-jaraco.functools.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8231 INFO: Setuptools: 'jaraco.functools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.functools'!
+8236 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8236 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+8299 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8468 INFO: Processing pre-safe-import-module hook 'hook-jaraco.text.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8468 INFO: Setuptools: 'jaraco.text' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.text'!
+8473 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8473 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8474 INFO: Processing pre-safe-import-module hook 'hook-jaraco.context.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8474 INFO: Setuptools: 'jaraco.context' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.context'!
+8841 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8841 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+8897 WARNING: Hidden import "tzdata" not found!
+9025 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9199 INFO: Performing binary vs. data reclassification (380 entries)
+9221 INFO: Looking for ctypes DLLs
+9246 INFO: Analyzing run-time hooks ...
+9257 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9258 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9259 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9260 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9261 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+9261 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9262 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+9263 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9274 INFO: Creating base_library.zip...
+9286 INFO: Looking for dynamic libraries
+C:\Users\PUBLIC_BUILD_USER\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-qa-windows\work\venv\Lib\site-packages\pydantic\experimental\__init__.py:7: PydanticExperimentalWarning: This module is experimental, its contents are subject to change and deprecation.
+  warnings.warn(
+9730 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\shiboken6']
+9730 INFO: Extra DLL search directories (PATH): ['C:\\Users\\����\\Documents\\Codex\\2026-10-08\\codex-yuaudit-ai-windows-qa-windows\\work\\venv\\Lib\\site-packages\\PySide6']
+10295 INFO: Warnings written to C:\Users\����\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-qa-windows\outputs\YuAudit\build\YuAudit\warn-YuAudit.txt
+10337 INFO: Graph cross-reference written to C:\Users\����\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-qa-windows\outputs\YuAudit\build\YuAudit\xref-YuAudit.html
+10364 INFO: checking PYZ
+10364 INFO: Building PYZ because PYZ-00.toc is non existent
+10364 INFO: Building PYZ (ZlibArchive) C:\Users\����\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-qa-windows\outputs\YuAudit\build\YuAudit\PYZ-00.pyz
+10758 INFO: Building PYZ (ZlibArchive) C:\Users\����\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-qa-windows\outputs\YuAudit\build\YuAudit\PYZ-00.pyz completed successfully.
+10770 INFO: checking PKG
+10770 INFO: Building PKG because PKG-00.toc is non existent
+10770 INFO: Building PKG (CArchive) YuAudit.pkg
+10782 INFO: Building PKG (CArchive) YuAudit.pkg completed successfully.
+10782 INFO: Bootloader C:\Users\����\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-qa-windows\work\venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+10782 INFO: checking EXE
+10782 INFO: Building EXE because EXE-00.toc is non existent
+10782 INFO: Building EXE from EXE-00.toc
+10783 INFO: Copying bootloader EXE to C:\Users\����\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-qa-windows\outputs\YuAudit\build\YuAudit\YuAudit.exe
+10784 INFO: Copying icon to EXE
+10785 INFO: Copying 0 resources to EXE
+10786 INFO: Embedding manifest in EXE
+10787 INFO: Appending PKG archive to EXE
+10789 INFO: Fixing EXE headers
+10826 INFO: Building EXE from EXE-00.toc completed successfully.
+10829 INFO: checking COLLECT
+10829 INFO: Building COLLECT because COLLECT-00.toc is non existent
+10829 INFO: Building COLLECT COLLECT-00.toc
+11102 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+11108 INFO: Build complete! The results are available in: C:\Users\����\Documents\Codex\2026-10-08\codex-yuaudit-ai-windows-qa-windows\outputs\YuAudit\dist
+Built and smoke-tested dist/YuAudit-Windows-x64/YuAudit.exe

@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "documents": 3,
+  "checks": 32,
+  "findings": 8,
+  "language": "en",
+  "frozen": true,
+  "platform": "win32",
+  "parser_formats": [
+    "csv",
+    "xlsx",
+    "text-pdf"
+  ],
+  "identifier_collision_guard": "passed"
+}

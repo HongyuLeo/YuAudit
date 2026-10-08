@@ -1,0 +1,13 @@
+{
+  "zip_integrity": "passed",
+  "inventoried_packages": 31,
+  "license_file_checks": 180,
+  "official_texts_per_copy": 7,
+  "license_locations": [
+    "THIRD_PARTY_LICENSES",
+    "_internal/THIRD_PARTY_LICENSES"
+  ],
+  "python_runtime_license": "passed",
+  "official_text_hashes": "passed",
+  "exe_sha256": "9f5382144e5ad4f1c145b4929737ecf16117eba2cc44c4f78e9a299ec9e5413e"
+}

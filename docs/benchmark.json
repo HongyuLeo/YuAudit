@@ -1,0 +1,8 @@
+{
+  "rows_per_document": 5000,
+  "documents": 3,
+  "checks": 30000,
+  "findings": 0,
+  "seconds_with_tracemalloc": 3.905,
+  "peak_python_allocations_mb": 254.61
+}

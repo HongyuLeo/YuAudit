@@ -1,0 +1,64 @@
+[
+  {
+    "package": "openpyxl",
+    "version": "3.1.5",
+    "file": "openpyxl/LICENCE.rst",
+    "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e",
+    "url": "https://files.pythonhosted.org/packages/3d/f9/88d94a75de065ea32619465d2f77b29a0469500e99012523b91cc4141cd1/openpyxl-3.1.5.tar.gz",
+    "archive_sha256": "cf0e3cf56142039133628b5acffe8ef0c12bc902d2aadd3e0fe5878dc08d1050",
+    "archive_member": "openpyxl-3.1.5/LICENCE.rst",
+    "metadata_url": "https://pypi.org/pypi/openpyxl/3.1.5/json"
+  },
+  {
+    "package": "et_xmlfile",
+    "version": "2.0.0",
+    "file": "et_xmlfile/LICENCE.python",
+    "sha256": "4ccdaaebc0f44b83720ec0399bb7ab329adce067dd62f73c5535a2dc05628ab2",
+    "url": "https://files.pythonhosted.org/packages/d3/38/af70d7ab1ae9d4da450eeec1fa3918940a5fafb9055e934af8d6eb0c2313/et_xmlfile-2.0.0.tar.gz",
+    "archive_sha256": "dab3f4764309081ce75662649be815c4c9081e88f0837825f90fd28317d4da54",
+    "archive_member": "et_xmlfile-2.0.0/LICENCE.python",
+    "metadata_url": "https://pypi.org/pypi/et_xmlfile/2.0.0/json"
+  },
+  {
+    "package": "et_xmlfile",
+    "version": "2.0.0",
+    "file": "et_xmlfile/LICENCE.rst",
+    "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e",
+    "url": "https://files.pythonhosted.org/packages/d3/38/af70d7ab1ae9d4da450eeec1fa3918940a5fafb9055e934af8d6eb0c2313/et_xmlfile-2.0.0.tar.gz",
+    "archive_sha256": "dab3f4764309081ce75662649be815c4c9081e88f0837825f90fd28317d4da54",
+    "archive_member": "et_xmlfile-2.0.0/LICENCE.rst",
+    "metadata_url": "https://pypi.org/pypi/et_xmlfile/2.0.0/json"
+  },
+  {
+    "package": "PySide6_Essentials",
+    "version": "6.8.3",
+    "file": "PySide6_Essentials/LGPL-3.0-only.txt",
+    "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+    "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/plain/LICENSES/LGPL-3.0-only.txt?h=v6.8.3",
+    "source_tag": "v6.8.3"
+  },
+  {
+    "package": "PySide6_Essentials",
+    "version": "6.8.3",
+    "file": "PySide6_Essentials/GPL-3.0-only.txt",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/plain/LICENSES/GPL-3.0-only.txt?h=v6.8.3",
+    "source_tag": "v6.8.3"
+  },
+  {
+    "package": "shiboken6",
+    "version": "6.8.3",
+    "file": "shiboken6/LGPL-3.0-only.txt",
+    "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+    "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/plain/LICENSES/LGPL-3.0-only.txt?h=v6.8.3",
+    "source_tag": "v6.8.3"
+  },
+  {
+    "package": "shiboken6",
+    "version": "6.8.3",
+    "file": "shiboken6/GPL-3.0-only.txt",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/plain/LICENSES/GPL-3.0-only.txt?h=v6.8.3",
+    "source_tag": "v6.8.3"
+  }
+]

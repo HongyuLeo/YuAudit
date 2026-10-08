@@ -1,0 +1,8 @@
+﻿PO Number,Invoice Number,SKU,Product Description,Quantity,Unit Price,Line Total,Currency,Supplier,Shipment Date
+DEMO-PO-001,,GOOD-01,Fictional item GOOD-01,10,2.50,25.00,USD,Fictional Example Supplier,2026-01-15
+DEMO-PO-001,,QTY-02,Fictional item QTY-02,10,3.00,30.00,USD,Fictional Example Supplier,2026-01-15
+DEMO-PO-001,,PRICE-03,Fictional item PRICE-03,5,4.00,20.00,USD,Fictional Example Supplier,2026-01-15
+DEMO-PO-001,,MISSING-04,Fictional item MISSING-04,8,1.00,8.00,USD,Fictional Example Supplier,2026-01-15
+DEMO-PO-001,,DUP-05,Fictional item DUP-05,2,6.00,12.00,USD,Fictional Example Supplier,2026-01-15
+DEMO-PO-001,,FUZZY-06,Fictional item FUZZY-06,3,2.00,6.00,USD,Fictional Example Supplier,2026-01-15
+DEMO-PO-001,,BATCH-07,Fictional item BATCH-07,100,1.25,125.00,USD,Fictional Example Supplier,2026-01-15
